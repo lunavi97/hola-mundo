@@ -9,4 +9,10 @@ public class HolaMundoTests {
         HolaMundo holaMundo = new HolaMundo();
         Assert.assertEquals("¡Hola, Kent Beck!", holaMundo.saludar("Kent Beck"));
     }
+    
+    @Test
+    public void sinPersona() {
+    	HolaMundo holaMundo = new HolaMundo();
+    	Assert.assertEquals("¡Hola!", holaMundo.saludar(""));
+    }
 }
