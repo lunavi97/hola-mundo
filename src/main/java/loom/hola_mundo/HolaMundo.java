@@ -7,7 +7,6 @@ package loom.hola_mundo;
  * de manera genérica si no se indica.
  */
 public class HolaMundo {
-
 	/**
 	 * Saludar.
 	 * @param nombre de la persona a saludar.
