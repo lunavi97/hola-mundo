@@ -9,7 +9,7 @@ package loom.hola_mundo;
 public class HolaMundo {
     /**
      * Saludar.
-     * @param nombre de la persona a saludar.
+     * @param persona - nombre de la persona a saludar.
      * @return mensaje de saludo.
      */
     public String saludar(final String persona) {
